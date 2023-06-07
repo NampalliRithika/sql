@@ -1,0 +1,8 @@
+create database simple;
+create table todo
+(
+task_id int primary key,
+task_name varchar(20),
+description varchar(100),
+is_completed boolean
+);
